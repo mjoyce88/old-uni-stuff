@@ -1,0 +1,350 @@
+﻿CREATE TABLE Venue (
+V_ID INT NOT NULL AUTO_INCREMENT,
+V_Name Varchar(30) NOT NULL,
+V_Address Varchar(60) NOT NULL,
+V_City Varchar(20) NOT NULL,
+V_PostCode Varchar(10) NOT NULL,
+V_Phone Varchar(15) NOT NULL,
+Manager_ID INT NOT NULL, 
+PRIMARY KEY (V_ID));
+
+
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (1, 'Salon Kitty Tavern', '5048 Debs Parkway', 'Leeds', '47302', '5588271482', 6);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (2, 'Dead Ringers', '148 Dahle Court', 'Belfast', '47303', '2148726662', 84);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (3, 'Hells Angels', '97 Oxford Court', 'Leeds', '79105', '8064845807', 74);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (4, 'Under the Influence', '23568 Bellgrove Street', 'Dublin', '30554', '4551337575', 14);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (5, 'Lolita''s Club', '107 Pearson Avenue', 'Leeds', '47304', '2188606530', 73);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (6, 'Cure for an Insomniac', '4449 Laurel Terrace', 'Belfast', 'H23', '6779714625', 16);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (7, 'Boycie''s Bar', '315 Ryan Court', 'Edinburgh', '23249', '1387338515', 52);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (8, 'Drinks & Dimples', '13 Charing Cross Alley', 'Dublin', '47305', '1974165700', 79);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (9, 'Gone Fishing', '10 Monterey Center', 'Portsmouth', '47306', '2083931303', 76);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (10, 'Walk on the Moonshine', '7608 Pine View Parkway', 'Edinburgh', '4602', '2488966677', 18);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (11, 'Snake Pit, The', '94 Elka Road', 'Manchester', '47307', '4431038396', 81);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (12, 'The Southern Wild', '03428 Hintze Terrace', 'Edinburgh', '352947', '5538036675', 20);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (13, 'Players, The', '5 Northfield Lane', 'Manchester', '47308', '8359072121', 86);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (14, 'Last Rum', '90587 Holmberg Hill', 'Portsmouth', '47309', '5571011761', 100);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (15, 'Stolen Identity', '132 Continental Plaza', 'Belfast', '47310', '8756594834', 56);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (16, 'All Saints Pub', '1 Monica Park', 'Cardiff', '369394', '6675195687', 75);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (17, 'Johnny Walker', '127 Village Way', 'Manchester', '07800-000', '4319349320', 42);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (18, 'Junk Shack', '69 Hoepker Place', 'Cardiff', '47311', '6405335856', 1);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (19, 'Robin Hood, The', '553 Londonderry Place', 'Portsmouth', '47312', '4017174560', 100);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (20, 'Leaky Cauldron, The', '9143 Lotheville Way', 'Cardiff', '47313', '1531815210', 91);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (21, 'Sheryl''s Rest', '8674 Old Shore Center', 'Farlington', '458 31', '6392603555', 101);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (22, 'Carrie''s Inn', '08555 Anzinger Alley', 'Manchester', '47314', '2658767380', 18);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (23, 'California Tavern', '83838 Dapin Alley', 'Dublin', '106 42', '9982037108', 61);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (24, 'Star, The', '8056 Moland Terrace', 'Farlington', '8109', '3852896465', 80);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (25, 'Gilded Pumpkin, The', '91763 Lakewood Gardens Junction', 'Doncaster', '2740-023', '9562226803', 64);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (26, 'Brewer''s Arms', '226 Hovde Trail', 'Doncaster', '47315', '1959133075', 96);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (27, 'Horse & Groom', '93 Judy Avenue', 'Doncaster', '4608', '1255490217', 2);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (28, 'Hog''s Head, The', '9850 Kinsman Trail', 'Doncaster', '47316', '3644310439', 59);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (29, 'Hampshire Rose, The', '74122 Wayridge Park', 'Waterlooville', '01943', '4816108116', 41);
+insert into Venue (V_Id, V_Name, V_Address, V_City, V_Postcode, V_Phone, Manager_ID) values (30, 'Quiet Drink, The', '9413 Nancy Plaza', 'Doncaster', '47317', '2738503090', 2);
+Alter table Venue Add FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID);
+
+
+CREATE TABLE StaffShift (
+SShift_ID INT NOT NULL AUTO_INCREMENT,
+SShift_ReqRole Varchar(30) NOT NULL,
+SShift_NOStaffREQ Varchar(3) NOT NULL,
+SShift_Rate Varchar(10) NOT NULL,
+SShift_Available Varchar(3) NOT NULL,
+Manager_ID INT NOT NULL,
+PRIMARY KEY (SShift_ID));
+
+
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (1,'Bar Staff','3','£7.83','Y',2);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (2,'Bar Staff','3','£7.83','Y',41);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (3,'Bar Staff','3','£7.83','Y',12);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (4,'Bar Staff','3','£7.83','Y',31);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (5,'Bar Staff','3','£7.83','Y',101);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (6,'Bar Staff','3','£7.83','Y',59);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (7,'Bar Staff','3','£7.83','Y',16);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (8,'Bar Staff','3','£7.83','Y',81);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (9,'Bar Staff','3','£7.83','Y',71);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (10,'Bar Staff','3','£7.83','Y',15);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (11,'Bar Staff','3','£7.83','Y',26);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (12,'Bar Staff','3','£7.83','Y',35);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (13,'Bar Staff','3','£7.83','Y',24);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (14,'Bar Staff','3','£7.83','Y',27);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (15,'Bar Staff','3','£7.83','Y',1);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (16,'Bar Staff','3','£7.83','Y',13);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (17,'Bar Staff','3','£7.83','Y',17);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (18,'Bar Staff','3','£7.83','Y',53);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (19,'Bar Staff','3','£7.83','Y',14);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (20,'Bar Staff','3','£7.83','Y',12);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (21,'Bar Staff','3','£7.83','Y',11);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (22,'Bar Staff','3','£7.83','Y',10);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (23,'Bar Staff','3','£7.83','Y',21);
+insert into StaffShift(SShift_ID, SShift_ReqRole, SShift_NOStaffREQ, SShift_Rate, SShift_Available, Manager_ID) values (24,'Bar Staff','4','£7.83','Y',41);
+Alter table StaffShift Add FOREIGN KEY (Manager_ID) REFERENCES Manager(Manager_ID)
+);
+
+
+
+
+
+
+CREATE TABLE Staff (
+Staff_ID INT NOT NULL AUTO_INCREMENT,
+Staff_fName Varchar(30) NOT NULL,
+Staff_lName Varchar(30) NOT NULL,
+Staff_DOB Date NOT NULL,
+Staff_Address Varchar(60) NOT NULL,
+Staff_Tel Varchar(20) NOT NULL,
+Staff_Transport Varchar(10) NOT NULL,
+Staff_Traveller Varchar(10) NOT NULL,
+Staff_MaxDistance Varchar(10) NOT NULL,
+PRIMARY KEY (Staff_ID)
+);
+
+
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (1,'Jack ','Smith','2001-08-15','12 Rodney Road','123456','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (2,'Jackie ','Scott','2000-07-15','18 Rodney Road','123459','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (3,'Jack ','Smith','1988-08-15','13 Rodney Road','123455','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (4,'Jack ','Smith','2001-06-15','14 Rodney Road','123499','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (5,'Jack ','Smith','2001-08-15','15 Rodney Road','123498','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (6,'Jack ','Smith','2001-09-15','16 Rodney Road','123497','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (7,'Jack ','Smith','2001-08-05','17 Rodney Road','123496','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (8,'Jack ','Smith','2001-03-15','19 Rodney Road','123495','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (9,'Jack ','Smith','2002-08-15','10 Rodney Road','123494','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (10,'Jack ','Smith','2001-08-15','11 Rodney Road','123493','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (11,'Jack ','Smith','200-08-15','1 Rodney Road','123492','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (12,'Jack ','Smith','2001-08-15','2 Rodney Road','123491','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (13,'Jack ','Smith','2001-08-16','123 Rodney Road','123490','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (14,'Jack ','Smith','2001-08-15','112 Rodney Road','123489','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (15,'Jack ','Smith','2000-05-15','132 Rodney Road','123488','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (16,'Jack ','Smith','2001-08-19','152 Rodney Road','123487','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (17,'Jack ','Smith','2001-10-15','162 Rodney Road','123486','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (18,'Jack ','Smith','2001-08-18','172 Rodney Road','123485','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (19,'Jack ','Smith','2001-08-15','182 Rodney Road','123484','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (20,'Jack ','Smith','2001-08-17','192 Rodney Road','123483','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (21,'Jack ','Smith','2000-08-15','127 Rodney Road','123482','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (22,'Jack ','Smith','2001-04-15','125 Rodney Road','123481','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (23,'Jack ','Smith','2001-01-15','121 Rodney Road','123480','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (24,'Jack ','Smith','2001-02-15','120 Rodney Road','123479','Y','Y','20 Miles');
+insert into Staff(Staff_ID, Staff_fName, Staff_lName, Staff_DOB, Staff_Address, Staff_Tel, Staff_Transport, Staff_Traveller, Staff_MaxDistance) values (25,'Jack ','Smith','1991-08-15','122 Rodney Road','123478','Y','Y','20 Miles');
+
+
+
+
+CREATE TABLE Manager (
+Manager_ID INT NOT NULL AUTO_INCREMENT,
+Manager_Name Varchar(30) NOT NULL,
+Manager_Role Varchar(20) NOT NULL,
+PRIMARY KEY (Manager_ID));
+
+
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (1,'Frankie','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (2,'Frank','BM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (3,'Frankie','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (100,'Jeff','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (101,'Janet','BM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (16,'Dave','KM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (18,'Dave','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (4,'Dave','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (5,'Fran','KM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (6,'Ayla','BM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (7,'Mel','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (71,'Frankie','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (8,'Frank','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (9,'George','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (10,'Steve','BM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (11,'Frankie','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (12,'Mel','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (13,'Steve','KM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (14,'Frankie','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (15,'Steve','GM');
+insert into Manager(Manager_ID, Manager_Name, Manager_Role) Values (22,'Frankie','GM');
+
+
+CREATE TABLE Shift (
+Shift_ID INT NOT NULL AUTO_INCREMENT,
+S_Location Varchar(30) NOT NULL,
+S_Date_Time DateTime NOT NULL,
+V_ID INT NOT NULL,
+PRIMARY KEY (Shift_ID));
+FOREIGN KEY (V_ID) REFERENCES Venue(V_ID)
+);
+
+
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(1,'Doncaster','2019-01-01 12:00:00-2019-01-02 01:00:00',27);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(2,'Doncaster','2019-03-01 12:00:00-2019-03-02 01:00:00',27);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(3,'Waterlooville','2018-07-01 12:00:00-2018-07-02 01:00:00',29);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(4,'Waterlooville','2018-07-01 12:00:00-2018-07-02 01:00:00',29);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(5,'Waterlooville','2018-07-01 12:00:00-2018-07-02 01:00:00',29);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(6,'Waterlooville','2018-07-01 12:00:00-2018-07-02 01:00:00',29);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(7,'Waterlooville','2018-07-01 12:00:00-2018-07-02 01:00:00',29);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(8,'Waterlooville','2018-07-01 12:00:00-2018-07-02 01:00:00',29);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(9,'Waterlooville','2018-07-01 12:00:00-2018-07-02 01:00:00',29);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(10,'Manchester','2019-03-01 12:00:00-2019-03-02 01:00:00',22);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(11,'Manchester','2019-03-01 12:00:00-2019-03-02 01:00:00',22);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(12,'Manchester','2019-03-01 12:00:00-2019-03-02 01:00:00',22);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(13,'Manchester','2019-03-01 12:00:00-2019-03-02 01:00:00',22);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(14,'Manchester','2019-03-01 12:00:00-2019-03-02 01:00:00',22);
+insert into Shift (Shift_ID, S_Location,S_Date_Time, V_ID) Values(15,'Manchester','2019-03-01 12:00:00-2019-03-02 01:00:00',22);
+
+
+CREATE TABLE Food_ItemSold (
+F_ID INT NOT NULL AUTO_INCREMENT,
+F_Name Varchar(30) NOT NULL,
+F_Price Decimal(4, 2) NOT NULL,
+F_Allergen Varchar(30) NOT NULL,
+TableOrder_ID Varchar(5) not null,
+PRIMARY KEY (F_ID),
+FOREIGN KEY (TableOrder_ID) REFERENCES TableOrder(TableOrder_ID)
+);
+
+
+
+
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F1', 'Breakfast', '3.10','Eggs', 1);
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F2', 'LBreakfast', '5.00','Eggs', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F3', 'Tea and Toast', '2.50','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F4', 'Eggs Benidict', '3.00','Eggs', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F5', 'Cunberland Sausage', '£6.00','Gluten', 2); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F6', 'Fish & Chips', '6.00','Fish', 2); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F7', 'Ham Sanwich', '3.00','Gluten', 7); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F8', 'Rum Cake', '1.00','Gluten/Eggs', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F9', 'Bangers & Mash', '6.00','None', 4); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F10', 'Steak Pie', '7.00','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F11', 'Chicken Pie', '6.00','Gluten', 4); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F12', 'Macaroni', '6.00','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F13', 'Hunters Chicken', '6.00','Gluten', 3); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F14', 'Chicken Nuggets', '5.00','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F15', 'Hot Dogs', '4.00','Gluten', 3); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F16', 'Spaghetti', '6.00','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F17', 'Vegetable Risotto', '6.00','Gluten', 7); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F18', 'Lemon Chicken', '6.00','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F19', 'Tomato Soup', '3.00','None', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F20', 'Mushroom Soup', '3.00','None', 6); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F21', 'Steak', '10.00','none', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F22', 'Burger & Pint', '7.50','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F23', 'Lasagne', '5.50','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F24', 'Crab Cakes', '3.00','Fish', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F25', 'Lemon Sole', '6.00','Fish', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F26', 'Tuna Melt Pannini', '£5.00','Gluten', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F27', 'Walnut Cake', '1.00','Nuts', 1); 
+insert into Food_ItemSold (F_ID, F_Name, F_Price, F_Allergen, TableOrder_ID) Values('F28', 'Chocolate Cake', '1.00','Nuts/Gluten', 2); 
+
+
+CREATE TABLE Drink_ItemSold (
+D_ID INT NOT NULL AUTO_INCREMENT,
+D_Name  Varchar(30) NOT NULL,
+D_Price  Decimal(4, 2) NOT NULL,
+D_Alcoholic Varchar(3) NOT NULL,
+TableOrder_ID Varchar(5) not null,
+PRIMARY KEY (D_ID),
+FOREIGN KEY (TableOrder_ID) REFERENCES TableOrder(TableOrder_ID)
+);
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D1', 'Doombar', '3.10','Y', 1);
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D2', 'Magners', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D3', 'Stella Artois', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D4', 'Carlsberg', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D5', 'Coffee', '1.00','N', 2); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D6', 'Tea', '1.00','N', 2); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D7', 'Vodka', '3.00','Y', 7); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D8', 'Rum', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D9', 'Bacardi', '3.00','Y', 4); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D10', 'Brandy', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D11', 'Absynth', '3.00','Y', 4); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D12', 'Budweiser', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D13', 'Fosters', '3.00','Y', 3); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D14', 'Coors', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D15', 'Heineken', '3.00','Y', 3); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D16', 'Orange Juice', '1.00','N', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D17', 'Cola', '1.00','N', 7); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D18', 'Lemonade', '1.00','N', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D19', 'Carling', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D20', 'Guinness', '3.00','Y', 6); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D21', 'Strongbow', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D22', 'Bulmers', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D23', 'WKD', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D24', 'Crabbies', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D25', 'Gin', '3.00','Y', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D26', 'Tonic', '1.00','N', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D27', 'Red Bull', '1.00','N', 1); 
+insert into Drink_ItemSold (D_ID, D_Name, D_Price, D_Alcoholic, TableOrder_ID) Values('D28', 'Hot Chocolate', '1.00','N', 2); 
+
+
+
+
+Create Table TableOrder(
+TableOrder_ID Varchar(5) not null,
+Table_ID Varchar(5) not null,
+V_ID Varchar(5) not null,
+Staff_ID Varchar(5) not null,
+Primary Key(TableOrder_ID),
+FOREIGN KEY (V_ID) REFERENCES Venue(V_ID).
+FOREIGN KEY (Staff_ID) REFERENCES Staff(Staff_ID)
+);
+
+
+
+
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(1, '1', 1, 2); 
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(2, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(3, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(4, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(5, '1', 20, 6);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(6, '1', 20, 6);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(7, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(8, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(9, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(10, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(11, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(12, '1', 1, 8);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(13, '1', 1, 8);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(14, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(15, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(16, '1', 1, 8);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(17, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(18, '1', 1, 8);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(19, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(20, '1', 1, 3);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(21, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(22, '1', 1, 3);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(23, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(24, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(25, '1', 20, 6);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(26, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(27, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(28, '1', 1, 3);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(29, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(30, '1', 20, 6);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(31, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(32, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(33, '1', 1, 3);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(34, '1', 1, 2);
+insert into TableOrder (TableOrder_ID, Table_ID, V_ID, Staff_ID) Values(35, '1', 20, 6);
+
+
+
+
+select Venue.V_Region, Venue.V_ID, Venue.V_Name, Concat(Venue.V_Address,', ', Venue.V_City, ', ',
+Venue.V_PostCode) as "Venue Address", Venue.V_Phone, Venue.Manager_ID, Manager.Manager_Name
+from Manager
+join  Venue on Manager.Manager_ID = Venue.Manager_ID
+where Manager.Manager_Role = 'GM'; 
+
+
+select (Venue.V_Name)as "Pub Name", Concat(Venue.V_Address,', ', Venue.V_City, ', ',
+Venue.V_PostCode) as "Venue Address", (Venue.V_Phone) as "Phone Number", Venue.Manager_ID, 
+(Manager.Manager_Name) as "Bar Manager's Name"
+from Manager 
+join  Venue on Manager.Manager_ID = Venue.Manager_ID
+where Manager.Manager_Role = 'BM' and Venue.V_City = 'Doncaster'; 
+
+
+select Shift.Shift_ID, Shift.S_Location, Shift.S_Date_Time, count(StaffShift.SShift_NOStaffREQ) as "Staffing Required", Shift.V_ID 
+from StaffShift, Shift
+where Shift.V_ID ='29';
+
+
+select Venue.V_ID, Venue.V_Name
+from Venue
+where Venue.V_Name = "Hampshire Rose, The"
+
+
+select sum(StaffShift.SShift_NOStaffREQ) 
+from StaffShift 
+where Manager_ID ='41';
